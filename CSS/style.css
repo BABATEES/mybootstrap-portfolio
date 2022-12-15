@@ -1,0 +1,90 @@
+body {
+
+  background-color: white;
+  display: grid;
+  
+}
+.jumbotron{
+  background-image: url(../Images/Tayo.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section{
+  padding: 50px;
+text-align: center;
+background-color: orange;
+color: white
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+  font-family: 'Sofia';font-size: 22px;
+}
+
+.navbar-brand {
+  font-family: 'Sofia';font-size: 22px;
+
+}
+
+  h1, h2, h3 , h4, h5, h6 {
+      font-family: 'Anton', sans-serif;
+    }
+    p {
+      font-family: 'Jura', sans-serif;
+    }
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:orange;
+      color: white;
+      text-align: center;
+    }
+    
+    /* Cards */
+    .content {
+      padding: 50px;
+    }
+    .sectionHeading {
+      text-align: center;
+    }
+    .work  {
+      padding: 0px 30px 30px 30px;
+    }
+    .cardContainer {
+      text-align: center;}
+      /* Content */
+.sideAccent {
+background:gray;
+width: 15px;
+}
+.imageContainer img {
+width: 50%;
+}
+.imageContainer {
+padding: 50px;
+}
+.otherinfo {
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.nav-link{
+padding: 5px;
+box-shadow: 10px 10px;}
+
+a:hover {
+  background-color: orange;
+}
+
+
+.btn{
+color: orange;
+}
+.footer{
+color:limegreen;
+}
